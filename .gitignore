@@ -1,0 +1,16 @@
+# LaTeX build artifacts
+*.synctex.gz
+*.xdv
+draft.*
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Obsidian
+.obsidian/
+
+# Large benchmark data files (> 100 MB, exceeds GitHub limit)
+results/**/test_log/data_for_loading.mat
