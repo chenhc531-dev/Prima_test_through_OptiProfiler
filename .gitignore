@@ -28,5 +28,4 @@ Thumbs.db
 # Exclude large raw data, MATLAB figures, and auxiliary files
 results/**/*.fig
 results/**/*.mat
-results/**/*.m
 results/**/*.png
