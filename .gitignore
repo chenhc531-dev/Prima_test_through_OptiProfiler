@@ -2,6 +2,18 @@
 *.synctex.gz
 *.xdv
 draft.*
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+
+# Spell-check temporary files
+_spellcheck.py
+_spellcheck_output.txt
+_report_text.txt
 
 # macOS
 .DS_Store
