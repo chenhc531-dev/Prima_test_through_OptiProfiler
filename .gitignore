@@ -24,5 +24,9 @@ Thumbs.db
 # Obsidian
 .obsidian/
 
-# Large benchmark data files (> 100 MB, exceeds GitHub limit)
-results/**/test_log/data_for_loading.mat
+# Results: only track PDF (performance profiles, plots) and TXT (reports, logs)
+# Exclude large raw data, MATLAB figures, and auxiliary files
+results/**/*.fig
+results/**/*.mat
+results/**/*.m
+results/**/*.png
