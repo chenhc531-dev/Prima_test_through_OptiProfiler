@@ -8,7 +8,10 @@ draft.*
 *.fdb_latexmk
 *.fls
 *.log
+*.nav
 *.out
+*.snm
+*.toc
 
 # Spell-check temporary files
 _spellcheck.py
